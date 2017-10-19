@@ -1,0 +1,194 @@
+body{
+    
+    padding: 0px;
+    margin: 0px;
+    background-image: url('../images/background.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container{
+    
+    margin: 0px auto;
+    width: 470px;
+    padding-top: 30px;
+    letter-spacing: 1px;
+}
+
+.todo_head{
+    
+    margin: 0px;
+    text-align: center;
+    font-size: 50px;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.valid_div{
+    
+    width: 175px;
+    float: left;
+    height: 89px;
+    position: relative;
+    
+}
+
+.validation{    
+    
+    padding: 0px;
+    margin: 0px;
+    color: red;
+    size: 12px;  
+}
+
+
+.taskText{
+    
+    border: 1px solid #bdc7d8;
+    padding: 7px;
+    border-radius: 4px;
+    width: 145px;
+   
+}
+
+
+.btn2{
+    
+    margin-top: 50px;
+    float: right; 
+    padding: 7.6px 10px; 
+    background: linear-gradient(#ef211a, #c41b15);
+    border: none;
+    color :white;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn1{
+    
+    margin-top: 50px;
+    float: right; 
+    padding: 7px 10px; 
+    background: linear-gradient(#3ab73e, #259129);
+    border: none;
+    color :white;
+    font-size: 17px;
+    border-radius: 6px;
+    margin-right: 14px;
+    cursor: pointer;
+
+ }
+
+.taskContainer{
+    
+   background-color: white;
+   height: 300px; 
+   border-radius: 5px;
+   margin-top: 10px;
+   overflow: scroll;
+}
+
+.at_heading{
+    
+    padding: 15px 0px 10px 20px;
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.all_task{
+    
+    border-top: double #f70067;
+    padding-top: 6px;
+}
+
+#listOfTask{
+    
+    padding: 0px;
+    margin: 0px;
+    list-style-type:none;
+}
+
+.singleItem{
+    
+     height: 30px;
+}
+
+.taskPara{
+    
+    padding: 0px;
+    margin: 0px;
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.del{
+    
+   float: right;
+   position: relative;
+  /*bottom: 19px;*/
+  
+}
+
+.cBox{
+    float: left;
+    margin: 5px 10px 0px 5px;
+}
+
+.makeLine{
+    
+    text-decoration: line-through;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.rmLine{
+    
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 3px;
+    display: inline-block;
+}
+
+.clr{
+    
+    clear: both;
+}
+
+.nameTextBox{
+    
+    border: 1px solid #bdc7d8;
+    padding: 7px;
+    border-radius: 4px;
+    width: 325px;
+}
+
+.SaveBtn{
+        
+    /*float: right; */
+    padding: 7px 22px; 
+    background: linear-gradient(#2957c4, #173b91);
+    border: none;
+    color :white;
+    font-size: 17px;
+    border-radius: 6px;
+    /*margin-right: 14px;*/
+    cursor: pointer;    
+}
+
+.getUser{
+    
+    padding: 7px 15px; 
+    background: linear-gradient(#179164, #179164);
+    border: none;
+    color :white;
+    font-size: 17px;
+    border-radius: 6px;
+    cursor: pointer;   
+}
+
+
+
